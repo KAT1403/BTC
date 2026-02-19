@@ -1,0 +1,81 @@
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend", sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header .logo span {
+  font-size: 32px;
+}
+
+.header .linkers ul {
+  display: flex;
+  gap: 36px;
+}
+
+.header .linkers ul li {
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.header .linkers ul li:hover {
+  text-decoration: underline;
+}
+
+.header .auth {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header .primary-btn {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Lexend", sans-serif;
+  font-size: 18px;
+}
+
+.header .primary-btn:hover {
+  background-color: #333;
+}
+
+.header .secondary-btn {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  cursor: pointer;
+  font-family: "Lexend", sans-serif;
+  font-size: 18px;
+}
+
+.header .secondary-btn:hover {
+  background-color: #f0f0f0;
+}
