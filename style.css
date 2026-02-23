@@ -237,12 +237,11 @@ header .secondary-btn:hover {
 
 .buy-btn {
   background: #4cfdc7;
-  color: white;
   border: none;
   padding: 10px 24px;
   border-radius: 8px;
-  font-weight: 600;
   cursor: pointer;
+  font-family: "Lexend", sans-serif;
   transition: all 0.3s ease;
   font-size: 14px;
 }
@@ -265,3 +264,82 @@ header .secondary-btn:hover {
   color: #000;
 }
 
+.why-title {
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.Why {
+  margin-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.Why .block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  max-width: 400px;
+  text-align: center;
+}
+
+.Why .block img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.Why .block h5 {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.Why .block p {
+  line-height: 1.5;
+  margin: 0;
+}
+
+.Trade, .Wallet{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 150px;
+}
+
+.Trade h2, .Wallet h2{
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  max-width: 600px;
+}
+
+.blocks{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.blocks .block{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.blocks .block img{
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.Wallet {
+  flex-direction: row-reverse;
+}
