@@ -17,7 +17,7 @@ A modern, pixel-perfect cryptocurrency exchange landing page. This project focus
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/btc-markets-landing.git](https://github.com/yourusername/btc-markets-landing.git)
+   git clone https://github.com/Spectr123/BTC
 Ответ Gemini
 Markdown
 # BTC Markets Landing Page
@@ -43,19 +43,20 @@ A modern, pixel-perfect cryptocurrency exchange landing page. This project focus
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/btc-markets-landing.git](https://github.com/yourusername/btc-markets-landing.git)
-2. Navigate to the project directory:
+   git clone https://github.com/Spectr123/BTC
+
+## Navigate to the project directory:
 
 Bash
 cd btc-markets-landing
 Open index.html in any modern web browser.
 
-Project Structure
+## Project Structure
 index.html — Page structure and content.
 
 style.css — Core styles and responsive breakpoints.
 
 img/ — Asset directory for icons and UI images.
 
-License
+## License
 Distributed under the MIT License. 
