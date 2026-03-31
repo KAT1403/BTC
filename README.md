@@ -17,7 +17,7 @@ A modern, pixel-perfect cryptocurrency exchange landing page. This project focus
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Spectr123/BTC
+   git clone https://github.com/KAT1403/BTC
 Ответ Gemini
 Markdown
 # BTC Markets Landing Page
@@ -43,7 +43,7 @@ A modern, pixel-perfect cryptocurrency exchange landing page. This project focus
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Spectr123/BTC
+   git clone https://github.com/KAT1403/BTC
 
 ## Navigate to the project directory:
 
